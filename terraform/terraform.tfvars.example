@@ -1,0 +1,12 @@
+aws_region   = "eu-west-1"
+environment  = "dev"
+project_name = "climate-anass"
+
+# Snowflake credentials — get these from your Snowflake account
+snowflake_account  = "aTWBOXYW-GG12826"    # your account identifier
+snowflake_user     = "LOADER_USER"
+snowflake_password = "$Lach2171250199"   # same as in Snowflake
+snowflake_role     = "LOADER_ROLE"
+snowflake_warehouse = "LOAD_WH"
+snowflake_database  = "RAW"
+snowflake_schema    = "CLIMATE"
